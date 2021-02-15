@@ -20,6 +20,8 @@
 #header #logo{
     font-style: italic;
     font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 } 
 
 #header #logo span{
@@ -47,13 +49,11 @@
 }
 
 #header nav a:hover{
-    opacity: 0.9;
+    opacity: 1;
+    background-color:red;
+    border-radius: 10px;
 }
 
-#container{
-    align-content: center;
-    align-items: center;
-}
 
 #table{
     padding: 20px;
@@ -79,12 +79,42 @@
     margin-bottom: 30px;
     text-align: center;
     align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+
 
 }
+
+a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    align-items: center;
+
+
+}
+shop a{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    width: 60px;
+}
+
 
 #training{
     align-items: center;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     align-content: center;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+
+h5{
+    font-size: xx-large;
+    font-style: inherit;
 }
